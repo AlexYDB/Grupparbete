@@ -32,7 +32,7 @@ namespace Grupparbete
             //game = Teams();
 
             //List<Teams> teams = new List<Teams>();
-            //var amountofTeams = rnd.Next(game.Count -1);
+            //var amountofTeams = rnd.Next(game.Count -1)
             //string nameofTeam = teams[amountofTeams];
             //Console.WriteLine(nameofTeam);
         }
