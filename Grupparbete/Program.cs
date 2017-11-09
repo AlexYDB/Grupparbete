@@ -10,6 +10,10 @@ namespace Grupparbete
     {
         static void Main(string[] args)
         {
+            Teams.HV71 teams = new Teams.HV71();
+            Console.WriteLine(teams.Name);
+            Game game = new Game();
+            game.Run();
         }
     }
 }
