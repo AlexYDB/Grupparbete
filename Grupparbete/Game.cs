@@ -8,13 +8,14 @@ namespace Grupparbete
 {
     class Game : Teams
     {
-        
-        
+
+        private List<Teams> rndList;
         Random rnd = new Random();
         
-        public List<Teams> Teams()
+        public List<Teams> TeamList()
         {
             List<Teams> teams = new List<Teams>();
+            
             teams.Add(new HV71());
             teams.Add(new Brynäs());
             teams.Add(new Södertälje());
@@ -27,23 +28,31 @@ namespace Grupparbete
         }
         public void Run()
         {
-            List<Teams> teams = new List<Teams>();
+            rndList = TeamList();
+
+            int rndTeam = rnd.Next(8);
+            foreach (var item in rndList)
+            {
+                
+                Console.WriteLine(item + " X " + item );
+            }
             
-            //game = Teams();
-
-            //List<Teams> teams = new List<Teams>();
-            //var amountofTeams = rnd.Next(game.Count -1)
-            //string nameofTeam = teams[amountofTeams];
-            //Console.WriteLine(nameofTeam);
         }
-
     }
+}
+           
+
+       
+            
+            
+           
+            
+
             
 
         
         
        
-}
 
 
 

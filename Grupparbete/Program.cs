@@ -14,6 +14,7 @@ namespace Grupparbete
             Console.WriteLine(teams.Name);
             Game game = new Game();
             game.Run();
+            
         }
     }
 }

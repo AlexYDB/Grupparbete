@@ -11,10 +11,7 @@ namespace Grupparbete
         public string Name { get; set; }
         public int Skill { get; set; }
 
-        public static implicit operator string(Teams v)
-        {
-            throw new NotImplementedException();
-        }
+        
 
         public class HV71 : Teams, ITeam
         {
