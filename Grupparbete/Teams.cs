@@ -11,7 +11,10 @@ namespace Grupparbete
         public string Name { get; set; }
         public int Skill { get; set; }
 
-        
+        public override string ToString()
+        {
+            return $"{Name}: {Skill}";
+        }
 
         public class HV71 : Teams, ITeam
         {
