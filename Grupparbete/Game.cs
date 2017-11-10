@@ -29,12 +29,12 @@ namespace Grupparbete
         public void Run()
         {
             rndList = TeamList();
-
             int rndTeam = rnd.Next(8);
+            //int rndTeam = rnd.Next(8);
             foreach (var item in rndList)
             {
                 
-                Console.WriteLine(item + " X " + item );
+                Console.WriteLine(item.Name + " X " + item.Name );
             }
             
         }
