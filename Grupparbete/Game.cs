@@ -34,7 +34,7 @@ namespace Grupparbete
             foreach (var item in rndList)
             {
                 
-                Console.WriteLine(item.Name + " X " + item.Name );
+                Console.WriteLine(item.Name + " X " + item.Name );  
             }
             
         }
